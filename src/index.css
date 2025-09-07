@@ -1,0 +1,162 @@
+/* App.jsx page  */
+/* section 1  */
+/* discover section  */
+.mega-menu-wrapper {
+  position: relative;
+  display: inline-block;
+}
+
+.mega-menu-toggle {
+  background: none;
+  border: none;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.mega-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: #fff;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  padding: 20px;
+  width: 900px;
+  max-height: 500px;
+  overflow-y: auto;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  z-index: 999;
+}
+
+.mega-menu-column {
+  min-width: 180px;
+}
+
+.mega-menu-column h6 {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.mega-menu-column ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.mega-menu-column li {
+  font-size: 14px;
+  padding: 4px 0;
+  cursor: pointer;
+}
+
+.mega-menu-column li:hover {
+  text-decoration: underline;
+}
+
+
+/* Section 3  */
+/* browse-cites  */
+.browse-cities .city-card {
+  border-radius: 8px;
+  border: 1px solid #e5e7eb;
+  height: 120px; /* matches screenshot */
+  background: rgba(107, 104, 104, 0.3) url('/images/city.png') center/cover no-repeat;
+  background-blend-mode: darken;
+}
+
+.browse-cities .city-link {
+  text-decoration: none;
+  font-weight: 600;
+  color: black !important;
+}
+
+/* section 4  */
+/* international-project section  */
+.international-project .project-card {
+  border-radius: 12px;
+  overflow: hidden;
+  border: 1px solid #e5e7eb;
+}
+
+.international-project .project-img {
+  height: 200px;
+  object-fit: cover;
+}
+
+.international-project .price-text {
+  font-size: 0.95rem;
+}
+
+.international-project .project-title {
+  font-size: 1.1rem;
+}
+
+/* section 6  */
+/* faq section  */
+
+
+.faq .faq-item {
+  border: none;
+  margin-bottom: 5px;
+}
+
+.faq .faq-icon {
+  background-color: #8fd14f;
+  width: 45px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 15px;
+  color: white;
+  flex-shrink: 0;
+}
+
+.faq .accordion-button {
+  background-color: #f8f8f8 !important;
+  padding: 0 !important;
+  display: flex;
+  align-items: center;
+  box-shadow: none !important;
+  border: none !important;
+}
+
+.faq .accordion-button:not(.collapsed) {
+  background-color: #f8f8f8 !important;
+  box-shadow: none !important;
+}
+
+.faq .faq-text {
+  font-size: 14px;
+  color: #333;
+  padding-left: 15px;
+  flex: 1;
+}
+
+.faq .accordion-body {
+  font-size: 14px;
+  background: white;
+  border-top: 1px solid #eee;
+}
+
+
+
+/* slider new project page  */
+.location-link {
+  transition: color 0.3s ease;
+}
+
+.location-link i {
+  transition: color 0.3s ease;
+  color: black; /* Bootstrap secondary text color */
+}
+
+.location-link:hover {
+  color: #33A137 !important; /* green text */
+}
+
+.location-link:hover i {
+  color: #33A137 !important; /* green arrow */
+}
